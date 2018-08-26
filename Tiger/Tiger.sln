@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "tiger_compier", "tiger_compier\tiger_compier.fsproj", "{A5FE81B6-DB8C-43F8-97D0-BB8BBA5F4C6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chap1", "chap1", "{62E91627-932C-4C04-87E8-09C8CC408BD7}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "tiger1", "chap1\tiger1\tiger1.fsproj", "{32715E3B-5F08-40BF-B08F-4E4E199B6C5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5FE81B6-DB8C-43F8-97D0-BB8BBA5F4C6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5FE81B6-DB8C-43F8-97D0-BB8BBA5F4C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5FE81B6-DB8C-43F8-97D0-BB8BBA5F4C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5FE81B6-DB8C-43F8-97D0-BB8BBA5F4C6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32715E3B-5F08-40BF-B08F-4E4E199B6C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32715E3B-5F08-40BF-B08F-4E4E199B6C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32715E3B-5F08-40BF-B08F-4E4E199B6C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32715E3B-5F08-40BF-B08F-4E4E199B6C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32715E3B-5F08-40BF-B08F-4E4E199B6C5B} = {62E91627-932C-4C04-87E8-09C8CC408BD7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F2296F6-3685-4F78-A061-F2A1AB4324F2}
+	EndGlobalSection
+EndGlobal
